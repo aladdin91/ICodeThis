@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Remove the line below if you don't want to use TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <!-- Change code below this line -->
+
+  <body
+    class="bg-[#181028] flex flex-col w-full justify-center items-center min-h-screen"
+  >
+    <canvas class="absolute z-0" id="my-canvas"></canvas>
+
+    <div
+      class="relative bg-white flex max-w-2xl gap-4 w-full flex-col justify-center items-center m-8 rounded-lg z-1"
+    >
+      <p class="absolute text-3xl top-7 left-[90%] rotate-45">+</p>
+      <img class="mt-8" src="./tiny_santa.png" alt="" />
+      <h2 class="text-3xl">Thank you for your purchase</h2>
+      <p class="mx-8 mb-8 text-center text-sm">
+        your support means the world to us. As a small businesses, every order
+        makes a big difference. We appreciate you!
+      </p>
+    </div>
+    <div
+      class="bg-white flex max-w-2xl gap-4 w-full justify-center items-center p-8 rounded-lg justify-between z-1"
+    >
+      <p class="text-sm max-w-[26rem]">
+        Enjoyed your experience? Please take a moment to rate us. Your feedback
+        ensures we continue delivering exceptional service
+      </p>
+      <button class="text-sm text-white p-3 rounded-full bg-[#0e7490]">
+        Give feedback
+      </button>
+    </div>
+
+    <script src="
+https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js
+"></script>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
